@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -143,9 +143,26 @@
 
         footer {
             background: #292929;
-            padding: 25px 10px;
+            padding: 35px 15px;
+            font-size: 9px;
+            line-height: 2.8;
+            border-top: 6px solid #55a832;
+        }
+
+        .team-title {
+            color: #7cff45;
+            margin-bottom: 15px;
+        }
+
+        .team-names {
+            color: white;
+            font-size: 10px;
+        }
+
+        .project {
+            color: #aaa;
             font-size: 8px;
-            line-height: 2.5;
+            margin-top: 15px;
         }
 
         @media (max-width: 600px) {
@@ -160,6 +177,11 @@
 
             .subtitle {
                 font-size: 8px;
+            }
+
+            .team-names {
+                font-size: 8px;
+                line-height: 3;
             }
         }
     </style>
@@ -210,9 +232,27 @@
     </div>
 
     <footer>
+
         MINECRAFT STYLE WEBSITE<br>
         DEPLOYED WITH JENKINS CI/CD
+
+        <br><br>
+
+        <div class="team-title">
+            OUR TEAM
+        </div>
+
+        <div class="team-names">
+            TORI • NADINA • NURUL • AMELL
+        </div>
+
+        <div class="project">
+            GROUP PROJECT 2026<br>
+            AUTOMATIC DEPLOYMENT WITH JENKINS
+        </div>
+
     </footer>
 
 </body>
 </html>
+```
