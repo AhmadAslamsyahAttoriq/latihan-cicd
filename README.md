@@ -5,4 +5,4 @@ Repository latihan CI/CD menggunakan Jenkins.
 ## Struktur
 - Jenkinsfile: konfigurasi pipeline.
 - public/index.html: halaman website yang akan di-deploy.
-Testing GitHub Webhook - Jenkins CI/CD Automation
+Testing Webhook Otomatis Jenkins - Sesi 4
